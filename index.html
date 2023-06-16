@@ -1,13 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
-    <h1>hola </h1>
+    <style>
+        
+    </style>
+</head >
+
+<body class="black"onclick="PlayAudio()">
+      <div class="contacto">CONTACTAR</div>
+    <header>
+       
+        <div class="encima animate__animated animate__fadeInDown animate__slow">
+            <img src="multimedia/lamborghinilogo.svg" alt="" width="120px">
+        </div>
     
+
+    </header>
+    <main>
+        
+        <div id="id1"></div>
+        <nav class="navinicio animate__animated animate__fadeInUp animate__slow">
+            <a href="modelos.html"><div class="sombra1">MODELOS</div></a>
+
+            <a href=""><div class="sombra1">SERVICIO AL CLIENTE</div></a>
+
+            <div class="sombra1">CONCESIONARIOS</div>
+
+            <div class="sombra1">STORE</div>
+        </nav>
+    </main>
+    <audio id="lambo" src="multimedia/audio/lambo.mp3" type="audio/mp3"></audio>
+
+    <script>
+        function PlayAudio() {
+            document.getElementById("lambo").play()
+        }
+        window.onload=function() {
+            document.getElementById("lambo").play()
+        }
+    </script>
+
+
+
+
 </body>
+
 </html>

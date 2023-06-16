@@ -1,0 +1,736 @@
+/* pagina inicio */
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+
+.black {
+    background-image: url('multimedia/4k-lamborghinifuego.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    text-align: center;
+}
+
+.navinicio {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 1.2em;
+    font-family: 'Bruno Ace SC', cursive;
+
+}
+
+main {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.sombra1 {
+    color: white;
+    text-align: center;
+    font-family: 'Bruno Ace SC', cursive;
+    text-shadow: 5px 5px 5px black;
+
+}
+
+/* modelos */
+
+
+
+.revuelto {
+    width: 350px;
+    height: 350px;
+    margin: 20px;
+    background-image: url(multimedia/revuelto/revueltogaleria.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.huracan {
+    width: 350px;
+    height: 350px;
+    margin: 20px;
+    background-image: url(multimedia/huracan/huracangaleria.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.urus {
+    width: 350px;
+    height: 350px;
+    margin: 20px;
+    background-image: url(multimedia/urus/urus_gate_hero_01.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.sian {
+    width: 350px;
+    height: 350px;
+    margin: 20px;
+    background-size: cover;
+    background-image: url(multimedia/sian/siangaleria2.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+
+}
+
+.concepto {
+    width: 350px;
+    height: 350px;
+    margin: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(multimedia/cencepto/header_Terzo-Millenniogaleria.webp);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.inicio {
+    width: 350px;
+    height: 350px;
+    margin: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(multimedia/photo-1632479803237-53e868bb2133.jpg);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+
+
+}
+
+.huracan:hover {
+    transform: scale(1.1);
+    transition: .5s;
+    filter: brightness();
+}
+
+.revuelto:hover {
+    transform: scale(1.1);
+    transition: .2s;
+    filter: brightness();
+}
+
+.sian:hover {
+    transform: scale(1.1);
+    transition: .2s;
+    filter: brightness();
+}
+
+.urus:hover {
+    transform: scale(1.1);
+    transition: .2s;
+    filter: brightness();
+}
+
+.concepto:hover {
+    transform: scale(1.1);
+    transition: .2s;
+    filter: brightness();
+}
+
+.inicio:hover {
+    transform: scale(1.1);
+    transition: .2s;
+    filter: brightness();
+    visibility: visible;
+
+
+}
+
+.sombra {
+    color: white;
+    text-align: center;
+    font-family: 'Bruno Ace SC', cursive;
+    text-shadow: 5px 5px 5px black;
+
+}
+
+
+a:link {
+    text-decoration-line: none;
+}
+
+
+.galeria {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hielo {
+    width: 100vw;
+    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(multimedia/cover.webp);
+
+}
+
+.sombra {
+    visibility: hidden;
+}
+
+.sian:hover .sombra {
+    visibility: visible;
+}
+
+.urus:hover .sombra {
+    visibility: visible;
+}
+
+.revuelto:hover .sombra {
+    visibility: visible;
+}
+
+.inicio:hover .sombra {
+    visibility: visible;
+}
+
+.concepto:hover .sombra {
+    visibility: visible;
+}
+
+.huracan:hover .sombra {
+    visibility: visible;
+}
+
+.fondo {
+    background-color: black;
+}
+
+.modelos {
+    color: white;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Bruno Ace SC', cursive;
+    text-shadow: 5px 5px 5px black;
+    padding: 50px;
+    font-size: 4em;
+}
+
+/* modeloRevuelto */
+
+.revueltoheader {
+    width: 100vw;
+    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(multimedia/revuelto/modelos/revueltoheader.jpg);
+}
+
+.trailer {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.lista {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-family: 'Bruno Ace SC', cursive;
+
+}
+
+.lista p {
+    text-shadow: 5px 5px 5px black;
+}
+
+.lista div {
+    padding: 10px;
+}
+
+.foto1 {
+    width: 500px;
+    height: 450px;
+    margin: 5px;
+    background-image: url(multimedia/revuelto/modelos/foto1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.foto2 {
+    width: 500px;
+    height: 450px;
+    margin: 5px;
+    background-image: url(multimedia/revuelto/modelos/foto2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    clip-path: polygon(100% 0%, 100% 100%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.foto3 {
+    width: 500px;
+    height: 450px;
+    margin: 5px;
+    background-image: url(multimedia/revuelto/modelos/foto3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    clip-path: polygon(100% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.foto4 {
+    width: 500px;
+    height: 450px;
+    margin: 5px;
+    background-size: cover;
+    background-image: url(multimedia/revuelto/modelos/foto4.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+
+}
+
+.foto5 {
+    width: 500px;
+    height: 450px;
+    margin: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(multimedia/revuelto/modelos/foto5.jpg);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.foto6 {
+    width: 500px;
+    height: 450px;
+    margin: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(multimedia/revuelto/modelos/foto6.jpg);
+    clip-path: polygon(100% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+
+
+}
+
+.galeria1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.galeria2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tecnico {
+    display: flex;
+    justify-content: center;
+
+}
+
+.tabla {
+    color: white;
+    font-size: 1.5em;
+    border-spacing: 20px;
+    text-align: center;
+}
+
+td {
+    padding-right: 100px;
+}
+
+.inicio1 {
+    width: 500px;
+    height: 450px;
+    margin: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(multimedia/photo-1632479803237-53e868bb2133.jpg);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+
+
+}
+
+.sombragal {
+    color: white;
+    text-align: center;
+    font-family: 'Bruno Ace SC', cursive;
+    text-shadow: 5px 5px 5px black;
+}
+
+
+/* modeloHURACAN */
+
+.huracanheader {
+    width: 100vw;
+    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(multimedia/huracan/modelos/lamborghini-huracanHEADER.jpg);
+}
+
+.inicioh1 {
+    width: 500px;
+    height: 450px;
+    margin: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(multimedia/photo-1632479803237-53e868bb2133.jpg);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+
+.huracan1 {
+    width: 500px;
+    height: 450px;
+    margin: 5px;
+    background-image: url(multimedia/huracan/modelos/huracan1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    clip-path: polygon(100% 0%, 100% 100%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.huracan2 {
+    width: 500px;
+    height: 450px;
+    margin: 5px;
+    background-image: url(multimedia/huracan/modelos/lamborghini-huracan2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    clip-path: polygon(100% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.huracan3 {
+    width: 500px;
+    height: 450px;
+    margin: 5px;
+    background-size: cover;
+    background-image: url(multimedia/huracan/modelos/06-Lamborghini_Huracan3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+
+}
+
+.huracan4 {
+    width: 500px;
+    height: 450px;
+    margin: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(multimedia/huracan/modelos/huracan_sterrato4.jpg);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.huracan5 {
+    width: 500px;
+    height: 450px;
+    margin: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(multimedia/huracan/modelos/Prueba-Lamborghini-Huracan5.jpg);
+    clip-path: polygon(100% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+
+}
+
+
+/* modeloURUS */
+
+.urusheader {
+    width: 100vw;
+    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(multimedia/urus/modelos/urusheader.jpg);
+}
+
+.inicioh1 {
+    width: 500px;
+    height: 450px;
+    margin: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(multimedia/photo-1632479803237-53e868bb2133.jpg);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+
+.urus1 {
+    width: 500px;
+    height: 450px;
+    margin: 5px;
+    background-image: url(multimedia/urus/modelos/urus1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    clip-path: polygon(100% 0%, 100% 100%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.urus2 {
+    width: 500px;
+    height: 450px;
+    margin: 5px;
+    background-image: url(multimedia/urus/modelos/urus2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    clip-path: polygon(100% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.urus3 {
+    width: 500px;
+    height: 450px;
+    margin: 5px;
+    background-size: cover;
+    background-image: url(multimedia/urus/modelos/urus3.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+
+}
+
+.urus4 {
+    width: 500px;
+    height: 450px;
+    margin: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(multimedia/urus/modelos/urus_4.webp);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.urus5 {
+    width: 500px;
+    height: 450px;
+    margin: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(multimedia/urus/modelos/urus_5.jpg);
+    clip-path: polygon(100% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+
+}
+
+/* modeloSIAN */
+
+
+
+.sianheader {
+    width: 100vw;
+    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(multimedia/sian/modelos/lamborghini_sianHEADER.jpg);
+    
+    
+}
+
+.inicioh1 {
+    width: 500px;
+    height: 450px;
+    margin: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(multimedia/photo-1632479803237-53e868bb2133.jpg);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+
+.sian1 {
+    width: 500px;
+    height: 450px;
+    margin: 5px;
+    background-image: url(multimedia/sian/modelos/sian1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    clip-path: polygon(100% 0%, 100% 100%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.sian2 {
+    width: 500px;
+    height: 450px;
+    margin: 5px;
+    background-image: url(multimedia/sian/modelos/sian2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    clip-path: polygon(100% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.sian3 {
+    width: 500px;
+    height: 450px;
+    margin: 5px;
+    background-size: cover;
+    background-image: url(multimedia/sian/modelos/sian3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+
+}
+
+.sian4 {
+    width: 500px;
+    height: 450px;
+    margin: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(multimedia/sian/modelos/sian4.webp);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.sian5 {
+    width: 500px;
+    height: 450px;
+    margin: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(multimedia/sian/modelos/sian5.webp);
+    clip-path: polygon(100% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+
+}
+
+/* modeloTERZOMILLENNIO */
+
+.terzoheader {
+    width: 100vw;
+    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(multimedia/cencepto/header_Terzo-Millenniogaleria.webp);
+}
+
+.inicioh1 {
+    width: 500px;
+    height: 450px;
+    margin: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(multimedia/photo-1632479803237-53e868bb2133.jpg);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+
+.terzo1 {
+    width: 500px;
+    height: 450px;
+    margin: 5px;
+    background-image: url(multimedia/cencepto/modelos/terzo1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    clip-path: polygon(100% 0%, 100% 100%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.terzo2 {
+    width: 500px;
+    height: 450px;
+    margin: 5px;
+    background-image: url(multimedia/cencepto/modelos/terzo2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    clip-path: polygon(100% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.terzo3 {
+    width: 500px;
+    height: 450px;
+    margin: 5px;
+    background-size: cover;
+    background-image: url(multimedia/cencepto/modelos/terzo3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+
+}
+
+.terzo4 {
+    width: 500px;
+    height: 450px;
+    margin: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(multimedia/);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.terzo5 {
+    width: 500px;
+    height: 450px;
+    margin: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(multimedia/cencepto/modelos/terzo5.jpg);
+    clip-path: polygon(100% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+
+}
+
+.contacto {
+    color: white;
+    font-family: 'Bruno Ace SC', cursive;
+    position: sticky;
+    top: 0;
+    text-align: right;
+    padding: 50px;
+    z-index: 100;
+    float: right;
+
+}
+
+
+/* contactar */
+
+form {
+    color: white;
+    padding: 20px;
+    font-size: 2em;
+    width: 600px;
+    text-align: center;
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+label {
+    margin-left: 10px;
+}
