@@ -11,24 +11,22 @@
     background-repeat: no-repeat;
 }
 
-header {
-    text-align: center;
-}
+
 
 .navinicio {
+
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     color: white;
     font-size: 1.2em;
     font-family: 'Bruno Ace SC', cursive;
-
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
-main {
-    display: flex;
-    height: 100vh;
-    flex-direction: column;
-    justify-content: space-around;
+.logo {
+    text-align: center;
 }
 
 .sombra1 {
@@ -37,6 +35,11 @@ main {
     font-family: 'Bruno Ace SC', cursive;
     text-shadow: 5px 5px 5px black;
 
+
+}
+
+a:link {
+    text-decoration-line: none;
 }
 
 /* modelos */
@@ -99,18 +102,6 @@ main {
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 
-.inicio {
-    width: 350px;
-    height: 350px;
-    margin: 20px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-image: url(multimedia/photo-1632479803237-53e868bb2133.jpg);
-    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-
-
-}
 
 .huracan:hover {
     transform: scale(1.1);
@@ -158,12 +149,6 @@ main {
     text-shadow: 5px 5px 5px black;
 
 }
-
-
-a:link {
-    text-decoration-line: none;
-}
-
 
 .galeria {
     display: flex;
@@ -217,6 +202,7 @@ a:link {
 
 .fondo {
     background-color: black;
+
 }
 
 .modelos {
@@ -268,7 +254,7 @@ a:link {
     width: 500px;
     height: 450px;
     margin: 5px;
-    background-image: url(multimedia/revuelto/modelos/foto1.webp);
+    background-image: url(multimedia/revuelto/modelos/revuelto6.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -345,41 +331,60 @@ a:link {
 }
 
 .tecnico {
+
     display: flex;
     justify-content: center;
+    color: white;
+    font-family: 'Bruno Ace SC', cursive;
+
 
 }
 
 .tabla {
     color: white;
     font-size: 1.5em;
-    border-spacing: 20px;
-    text-align: center;
+    border-spacing: 10px;
+
+
 }
 
 td {
     padding-right: 100px;
 }
 
-.inicio1 {
-    width: 500px;
+.seccionterzo {
+    width: 40%;
+    margin-left: 20px;
+}
+
+.seccionterzo2 {
+    float: right;
+    width: 40%;
+    margin-right: 20px;
+}
+
+.terzoh1 {
+    font-family: 'Bruno Ace SC', cursive;
+    color: white;
+
+}
+
+.terzoparrafo {
+    color: white;
+    font-family: 'Bruno Ace SC';
+}
+
+.terzomedio {
     height: 450px;
     margin: 5px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: url(multimedia/photo-1632479803237-53e868bb2133.jpg);
-    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-
+    background-image: url(multimedia/cencepto/lamborghini-terzo-millennio-supercars-digital-composition-4480x2520-7506.jpg);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 
 }
 
-.sombragal {
-    color: white;
-    text-align: center;
-    font-family: 'Bruno Ace SC', cursive;
-    text-shadow: 5px 5px 5px black;
-}
 
 
 /* modeloHURACAN */
@@ -393,14 +398,14 @@ td {
     background-image: url(multimedia/huracan/modelos/lamborghini-huracanHEADER.jpg);
 }
 
-.inicioh1 {
+.huracan6 {
     width: 500px;
     height: 450px;
     margin: 5px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: url(multimedia/photo-1632479803237-53e868bb2133.jpg);
+    background-image: url(multimedia/huracan/modelos/sterrato6.webp);
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 
@@ -472,16 +477,17 @@ td {
     background-repeat: no-repeat;
     background-position: center center;
     background-image: url(multimedia/urus/modelos/urusheader.jpg);
+
 }
 
-.inicioh1 {
+.urus6 {
     width: 500px;
     height: 450px;
     margin: 5px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: url(multimedia/photo-1632479803237-53e868bb2133.jpg);
+    background-image: url(multimedia/urus/urus6.jpg);
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 
@@ -554,18 +560,18 @@ td {
     background-repeat: no-repeat;
     background-position: center center;
     background-image: url(multimedia/sian/modelos/lamborghini_sianHEADER.jpg);
-    
-    
+
+
 }
 
-.inicioh1 {
+.sian6 {
     width: 500px;
     height: 450px;
     margin: 5px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: url(multimedia/photo-1632479803237-53e868bb2133.jpg);
+    background-image: url(multimedia/sian/modelos/sian6.jpg);
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 
@@ -638,14 +644,14 @@ td {
     background-image: url(multimedia/cencepto/header_Terzo-Millenniogaleria.webp);
 }
 
-.inicioh1 {
+.terzo6 {
     width: 500px;
     height: 450px;
     margin: 5px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: url(multimedia/photo-1632479803237-53e868bb2133.jpg);
+    background-image: url(multimedia/cencepto/modelos/terzo6.jpg);
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 
@@ -691,7 +697,7 @@ td {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: url(multimedia/);
+    background-image: url(multimedia/cencepto/modelos/terzo44.jpg);
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 
@@ -704,33 +710,130 @@ td {
     background-position: center center;
     background-image: url(multimedia/cencepto/modelos/terzo5.jpg);
     clip-path: polygon(100% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-
-}
-
-.contacto {
-    color: white;
-    font-family: 'Bruno Ace SC', cursive;
-    position: sticky;
-    top: 0;
-    text-align: right;
-    padding: 50px;
-    z-index: 100;
-    float: right;
-
 }
 
 
 /* contactar */
 
-form {
+.cantactfoto {
+    width: 100vw;
+    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(multimedia/lambocontacto.webp);
+
+}
+
+.form {
     color: white;
     padding: 20px;
     font-size: 2em;
-    width: 600px;
+    width: 500px;
     text-align: center;
     font-family: 'Bruno Ace SC', cursive;
+    outline: none;
+
 }
 
-label {
-    margin-left: 10px;
+.formulario {
+    display: flex;
+    justify-content: center;
+
+}
+
+fieldset {
+    border-radius: 10px;
+    box-shadow: 5px 1px 20px 1px white;
+
+}
+
+input {
+    outline: none;
+}
+
+input[type=text]:invalid {
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+input[type=email]:invalid {
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+input[type=text]:valid {
+    border: 2px solid greenyellow;
+    border-radius: 5px;
+}
+
+input[type=email]:valid {
+    border: 2px solid greenyellow;
+    border-radius: 5px;
+}
+
+.politicaseparada {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* serviociocliente */
+
+.servicioheader {
+    width: 100vw;
+    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(multimedia/SERVICIOCLIENTE/header.jpg);
+}
+
+.dos {
+    display: flex
+}
+
+.medioo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 40px;
+}
+
+.fotoparalello {
+    clip-path: polygon(0% 0%, 90% 0%, 65% 100%, 0% 100%);
+}
+
+.fotoparalello2 {
+    clip-path: polygon(43% 0, 100% 0%, 100% 99%, 0% 100%);
+}
+
+.medioo2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 40px;
+
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:500px) {
+    .navinicio {
+        display: flex;
+        flex-direction: column;
+        font-size: 1em;
+    }
+    .logo{margin-top: 55px;
+        
+}
+.hielo{.hielo {
+    width: 100vw;
+    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(multimedia/cover.webp);
+
+}}
+
 }

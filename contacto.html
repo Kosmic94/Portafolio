@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,38 +10,172 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    
+
 </head>
 
 <body class="fondo">
-    <header class="hielo">
+
+    <nav class="navinicio animate__animated animate__fadeInDown animate__slower">
+        <a href="inicio.html">
+          <div class="sombra1">INICIO</div>
+        </a>
+        <a href="modelos.html">
+          <div class="sombra1">MODELOS</div>
+        </a>
+    
+        <a href="serviciocliente.html">
+          <div class="sombra1">SERVICIO AL CLIENTE</div>
+        </a>
+    
+        <a href="https://www.lamborghini.com/es-en/concesionarios">
+          <div class="sombra1">CONCESIONARIOS</div>
+        </a>
+    
+        <a href="contacto.html">
+          <div class="sombra1">CONTACTAR</div>
+        </a>
+      </nav>
+    <header class="cantactfoto">
+
         <div>
             <h1 class="modelos animate__animated animate__fadeIn animate__slower">CONTACTAR</h1>
         </div>
     </header>
 
-    <section>
-<form action="" method="get">
-    <fieldset>
-        <legend>Contactenos:</legend>
-    
-   <p> <label for="nombre">NOMBRE</label></p>
-    <input type="text" name="nombre" id="nombre">
-    <p><label for="apellido">APELLIDO</label></p>
-    <input type="text" name="apellido" id="apellido">
-    <p><label for="mail">CORREO ELECTRÓNICO</label></p>
-    <input type="email" name="mail" id="mail">
-    <p><label for="archivos">ADJUNTAR ARCHIVOS</label></p>
-    <input type="file" name="archivos" id="archivos">
-    <p><label for="area">COMENTARIOS</label></p>
-    <textarea name="area" id="area" cols="60" rows="10"></textarea>
-    </fieldset>
-</form>
+    <section class="formulario">
+        <form class="form" action="" method="get">
+            <fieldset>
+                <legend>Contactenos:</legend>
+
+                <p> <label for="nombre">NOMBRE</label></p>
+                <input type="text" name="nombre" id="nombre" size="60" placeholder="Escriba su Nombre..." required>
+                <p><label for="apellido">APELLIDO</label></p>
+                <input type="text" name="apellido" id="apellido" size="60" placeholder="Escriba su Apellido..." required
+                    required>
+                <p><label for="mail">CORREO ELECTRÓNICO</label></p>
+                <input type="email" name="mail" id="mail" size="60" placeholder="Escriba su correo electrónico..."
+                    required required>
+                <p><label for="archivos">ADJUNTAR ARCHIVOS</label></p>
+                <input type="file" name="archivos" id="archivos" size="60">
+                <p><label for="area">COMENTARIOS</label></p>
+                <textarea name="area" id="area" cols="60" rows="10" placeholder="Escriba sus comentarios..."
+                    required></textarea>
+
+                <label for="terminos">Terminos y condiciones</label>
+                <input type="checkbox" name="terminos" id="terminos">
+                <button type="submit" value="enviar">ENVIAR</button>
+                <button type="reset">BORRAR</button>
+
+            </fieldset>
+        </form>
 
     </section>
 
+    <div class="politicaseparada">
+        <section class="politica">
+            <p class="terzoparrafo">
+                <label for="politica" id="politica"></label>
+            <details>
+                <summary class="terzoparrafo">POLITICA DE PRIVACIDAD</summary>
+
+                <br><br>
+
+                <p class="terzoparrafo">Política de Privacidad y Cookies
+
+                    En [Nombre del Concesionario de Coches], nos tomamos muy en serio la privacidad de nuestros clientes
+                    y
+                    visitantes en línea. Esta Política de Privacidad y Cookies explica cómo recopilamos, utilizamos,
+                    divulgamos
+                    y protegemos la información personal que obtenemos a través de nuestro sitio web y otros canales en
+                    línea.
+                    Al utilizar nuestros servicios, aceptas los términos de esta política.
+
+                    Recopilación de Información Personal:
+
+                    Información que nos proporcionas directamente: Podemos recopilar información personal que nos
+                    proporciones
+                    voluntariamente, como tu nombre, dirección de correo electrónico, número de teléfono y cualquier
+                    otra
+                    información que elijas compartir al comunicarte con nosotros o al completar formularios en nuestro
+                    sitio
+                    web.
+
+                    Información recopilada automáticamente: Utilizamos tecnologías de seguimiento, como cookies y
+                    registros del
+                    servidor, para recopilar cierta información automáticamente cuando visitas nuestro sitio web. Esta
+                    información puede incluir tu dirección IP, tipo de navegador, proveedor de servicios de Internet
+                    (ISP),
+                    páginas de referencia/salida, tipo de dispositivo, sistema operativo, marca y modelo de dispositivo,
+                    y datos
+                    de navegación.
+
+                    Uso de la Información:
+
+                    Utilizamos la información recopilada para brindarte nuestros servicios, procesar tus consultas y
+                    pedidos,
+                    mejorar nuestro sitio web y servicios, y comunicarnos contigo de manera efectiva.
+
+                    Podemos utilizar tu información para enviar comunicaciones de marketing y promociones, pero siempre
+                    te
+                    ofreceremos la opción de darte de baja de dichas comunicaciones.
+
+                    No compartiremos tu información personal con terceros, excepto cuando sea necesario para
+                    proporcionarte
+                    nuestros servicios o cuando estemos legalmente obligados a hacerlo.</p>
+            </details>
 
 
+
+        </section>
+
+        <section class="cookies">
+            <label for="cookies" id="cookies"></label>
+            <details>
+                <summary class="terzoparrafo">COOKIES</summary>
+
+                <br><br>
+                <p class="terzoparrafo">
+                    Uso de Cookies:
+
+                    Utilizamos cookies y tecnologías similares para mejorar tu experiencia en nuestro sitio web y
+                    recopilar
+                    información para análisis y fines publicitarios.
+
+                    Al utilizar nuestro sitio web, aceptas el uso de cookies de acuerdo con esta política. Puedes
+                    controlar y
+                    administrar las cookies a través de la configuración de tu navegador. Sin embargo, desactivar las
+                    cookies
+                    puede afectar la funcionalidad de nuestro sitio web.
+
+                    Seguridad de la Información:
+
+                    Implementamos medidas de seguridad apropiadas para proteger tu información personal contra accesos
+                    no
+                    autorizados, pérdidas o modificaciones. Sin embargo, no podemos garantizar la seguridad absoluta de
+                    los
+                    datos transmitidos a través de Internet.
+
+                    Enlaces a Sitios de Terceros:
+
+                    Nuestro sitio web puede contener enlaces a sitios web de terceros. No somos responsables de las
+                    prácticas de
+                    privacidad o el contenido de dichos sitios web. Te recomendamos revisar las políticas de privacidad
+                    de esos
+                    sitios antes de proporcionarles información personal.
+
+                    Cambios a esta Política:
+
+                    Nos reservamos el derecho de actualizar o modificar esta Política de Privacidad y Cookies en
+                    cualquier
+                    momento. Te notificaremos cualquier cambio relevante publicando la versión actualizada en nuestro
+                    sitio web.
+
+                    Si tienes alguna pregunta sobre esta Política de Privacidad y Cookies, no dudes en contactarnos.</p>
+                </p>
+            </details>
+        </section>
+    </div>
 
 </body>
+
 </html>
